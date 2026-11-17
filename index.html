@@ -1,431 +1,783 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="description"
+      content="Portfólio profissional de Charliane Silva Oliveira - Técnica em Desenvolvimento de Sistemas."
     />
-    <meta name="description" content="Portfólio de Charliane Silva Oliveira - Técnico em Desenvolvimento de Sistemas" />
     <meta name="author" content="Charliane Silva Oliveira" />
-    <title>Charliane Silva Oliveira - Portfólio</title>
-    <!-- Favicon-->
+
+    <title>Charliane Silva Oliveira | Portfólio</title>
+
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
-      type="text/css"
     />
+
+    <!-- Bootstrap -->
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      type="text/css"
     />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
-      id="mainNav"
-    >
+
+  <body>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#page-top">Charliane Silva Oliveira</a>
+        <a class="navbar-brand" href="#inicio">
+          <span class="brand-icon">&lt;/&gt;</span>
+          Charliane<span class="brand-highlight">.</span>
+        </a>
+
         <button
-          class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarResponsive"
           aria-controls="navbarResponsive"
           aria-expanded="false"
-          aria-label="Toggle navigation"
+          aria-label="Abrir menu"
         >
-          Menu
           <i class="fas fa-bars"></i>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio"
-                >Portfólio</a
-              >
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Início</a>
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about"
-                >Sobre</a
-              >
+
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre mim</a>
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact"
-                >Contato</a
-              >
+
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projetos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link contact-nav" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container d-flex align-items-center flex-column">
-        <!-- Masthead Avatar Image-->
-        <img
-          class="masthead-avatar mb-5"
-          src="assets/img/portfolio/Avatar.png"
-          alt="..."
-        />
-        <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Charliane Silva Oliveira</h1>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+
+    <!-- INÍCIO -->
+    <header class="hero-section" id="inicio">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 hero-content">
+            <span class="welcome-tag">
+              <i class="fas fa-circle"></i>
+              BEM-VINDO(A) AO MEU PORTFÓLIO
+            </span>
+
+            <h1>
+              Olá, eu sou<br />
+              <span>Charliane Silva Oliveira</span>
+            </h1>
+
+            <h2>Técnica em Desenvolvimento de Sistemas</h2>
+
+            <p class="hero-description">
+              Apaixonada por tecnologia e desenvolvimento. Gosto de transformar
+              ideias em soluções digitais, aprender novas ferramentas e criar
+              projetos que fazem a diferença.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn-primary-custom">
+                <i class="fas fa-code"></i>
+                Ver meus projetos
+              </a>
+
+              <a href="#contato" class="btn-outline-custom">
+                Entre em contato
+              </a>
+            </div>
+
+            <div class="hero-social">
+              <a
+                href="https://github.com/silvachacha167-cpu"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/lianesilvaol._/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a
+                href="https://wa.me/5569993228219"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- FOTO DE PERFIL -->
+          <div class="col-lg-5 text-center">
+            <div class="profile-container">
+              <div class="profile-decoration"></div>
+
+              <img
+                src="assets/img/portfolio/Avatar.png"
+                alt="Foto de perfil de Charliane Silva Oliveira"
+                class="profile-image"
+              />
+
+              <div class="floating-card">
+                <i class="fas fa-laptop-code"></i>
+                <span>Desenvolvimento</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">
-          Técnica em Desenvolvimento de Sistemas
-        </p>
       </div>
+
+      <div class="hero-decoration decoration-one"></div>
+      <div class="hero-decoration decoration-two"></div>
     </header>
-    <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
+
+    <!-- SOBRE MIM -->
+    <section class="section-padding" id="sobre">
       <div class="container">
-        <!-- Portfolio Section Heading-->
-        <h2
-          class="page-section-heading text-center text-uppercase text-secondary mb-0"
-        >
-          Portfólio
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+        <div class="section-heading">
+          <span class="section-subtitle">CONHEÇA UM POUCO</span>
+
+          <h2>Sobre <span>mim</span></h2>
+
+          <div class="heading-line"></div>
         </div>
-        <!-- Portfolio Grid Items-->
-        <div class="row justify-content-center">
-          <!-- Portfolio Item 1-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal1"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
+
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-4">
+            <div class="about-card">
+              <div class="about-icon">
+                <i class="fas fa-user-graduate"></i>
               </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/cabin.png"
-                alt="..."
-              />
+
+              <h3>Minha trajetória</h3>
+
+              <p>
+                Sou Charliane Silva Oliveira, Técnica em Desenvolvimento de
+                Sistemas. Sou apaixonada por tecnologia e estou sempre buscando
+                aprender e evoluir profissionalmente.
+              </p>
             </div>
           </div>
-          <!-- Portfolio Item 2-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal2"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/cake.png"
-                alt="..."
-              />
+
+          <div class="col-lg-7">
+            <h3 class="about-title">Tecnologia, criatividade e aprendizado.</h3>
+
+            <p class="about-text">
+              Tenho interesse em desenvolvimento de sistemas, programação e
+              criação de páginas web. Busco desenvolver soluções práticas,
+              funcionais e com boa experiência para os usuários.
+            </p>
+
+            <p class="about-text">
+              Neste portfólio apresento alguns dos meus trabalhos, conhecimentos
+              e projetos desenvolvidos durante minha jornada na tecnologia.
+            </p>
+
+            <a href="#contato" class="btn-primary-custom">
+              <i class="fas fa-envelope"></i>
+              Fale comigo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section-padding skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-subtitle">CONHECIMENTOS</span>
+
+          <h2>Minhas <span>habilidades</span></h2>
+
+          <div class="heading-line"></div>
+
+          <p>
+            Tecnologias e ferramentas que fazem parte dos meus estudos e
+            projetos.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card">
+              <i class="fab fa-html5 html-icon"></i>
+              <h4>HTML5</h4>
+              <p>Estrutura de páginas web</p>
             </div>
           </div>
-          <!-- Portfolio Item 3-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal3"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/circus.png"
-                alt="..."
-              />
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card">
+              <i class="fab fa-css3-alt css-icon"></i>
+              <h4>CSS3</h4>
+              <p>Estilização e design</p>
             </div>
           </div>
-          <!-- Portfolio Item 4-->
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div
-              class="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal4"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/game.png"
-                alt="..."
-              />
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card">
+              <i class="fab fa-js js-icon"></i>
+              <h4>JavaScript</h4>
+              <p>Interatividade web</p>
             </div>
           </div>
-          <!-- Portfolio Item 5-->
-          <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-            <div
-              class="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal5"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/safe.png"
-                alt="..."
-              />
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card">
+              <i class="fab fa-python python-icon"></i>
+              <h4>Python</h4>
+              <p>Lógica e programação</p>
             </div>
           </div>
-          <!-- Portfolio Item 6-->
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card">
+              <i class="fab fa-git-alt git-icon"></i>
+              <h4>Git</h4>
+              <p>Controle de versões</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card">
+              <i class="fab fa-github github-icon"></i>
+              <h4>GitHub</h4>
+              <p>Repositórios e projetos</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card">
+              <i class="fas fa-laptop-code"></i>
+              <h4>VS Code</h4>
+              <p>Ambiente de desenvolvimento</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card">
+              <i class="fas fa-database"></i>
+              <h4>Desenvolvimento</h4>
+              <p>Criação de soluções digitais</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section class="section-padding" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-subtitle">MEUS TRABALHOS</span>
+
+          <h2>Meus <span>projetos</span></h2>
+
+          <div class="heading-line"></div>
+
+          <p>Confira alguns dos trabalhos apresentados no meu portfólio.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- PROJETO 1 -->
           <div class="col-md-6 col-lg-4">
-            <div
-              class="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal6"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="assets/img/portfolio/cabin.png"
+                  alt="Imagem do projeto 1"
+                />
               </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/submarine.png"
-                alt="..."
-              />
+
+              <div class="project-info">
+                <span class="project-category">Projeto 01</span>
+                <h3>Projeto em destaque</h3>
+                <p>Espaço reservado para apresentar um dos meus trabalhos.</p>
+
+                <a
+                  href="https://github.com/silvachacha167-cpu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver no GitHub
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJETO 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="assets/img/portfolio/cake.png"
+                  alt="Imagem do projeto 2"
+                />
+              </div>
+
+              <div class="project-info">
+                <span class="project-category">Projeto 02</span>
+                <h3>Projeto em destaque</h3>
+                <p>Espaço reservado para apresentar um dos meus trabalhos.</p>
+
+                <a
+                  href="https://github.com/silvachacha167-cpu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver no GitHub
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJETO 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="assets/img/portfolio/circus.png"
+                  alt="Imagem do projeto 3"
+                />
+              </div>
+
+              <div class="project-info">
+                <span class="project-category">Projeto 03</span>
+                <h3>Projeto em destaque</h3>
+                <p>Espaço reservado para apresentar um dos meus trabalhos.</p>
+
+                <a
+                  href="https://github.com/silvachacha167-cpu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver no GitHub
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJETO 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="assets/img/portfolio/game.png"
+                  alt="Imagem do projeto 4"
+                />
+              </div>
+
+              <div class="project-info">
+                <span class="project-category">Projeto 04</span>
+                <h3>Projeto em destaque</h3>
+                <p>Espaço reservado para apresentar um dos meus trabalhos.</p>
+
+                <a
+                  href="https://github.com/silvachacha167-cpu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver no GitHub
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJETO 5 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="assets/img/portfolio/safe.png"
+                  alt="Imagem do projeto 5"
+                />
+              </div>
+
+              <div class="project-info">
+                <span class="project-category">Projeto 05</span>
+                <h3>Projeto em destaque</h3>
+                <p>Espaço reservado para apresentar um dos meus trabalhos.</p>
+
+                <a
+                  href="https://github.com/silvachacha167-cpu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver no GitHub
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJETO 6 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="assets/img/portfolio/submarine.png"
+                  alt="Imagem do projeto 6"
+                />
+              </div>
+
+              <div class="project-info">
+                <span class="project-category">Projeto 06</span>
+                <h3>Projeto em destaque</h3>
+                <p>Espaço reservado para apresentar um dos meus trabalhos.</p>
+
+                <a
+                  href="https://github.com/silvachacha167-cpu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver no GitHub
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
+
+    <!-- CHAMADA PARA CONTATO -->
+    <section class="contact-banner">
+      <div class="container text-center">
+        <h2>Vamos desenvolver algo juntos?</h2>
+
+        <p>
+          Estou aberta a oportunidades, novos aprendizados e conexões
+          profissionais.
+        </p>
+
+        <a href="#contato" class="btn-white-custom">
+          <i class="fas fa-paper-plane"></i>
+          Entre em contato
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section-padding contact-section" id="contato">
       <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">
-          Sobre
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+        <div class="section-heading">
+          <span class="section-subtitle">VAMOS CONVERSAR</span>
+
+          <h2>Entre em <span>contato</span></h2>
+
+          <div class="heading-line"></div>
+
+          <p>
+            Tem alguma oportunidade ou gostaria de conversar? Envie uma
+            mensagem!
+          </p>
         </div>
-        <!-- About Section Content-->
-        <div class="row">
-          <div class="col-lg-4 ms-auto">
-            <p class="lead">
-              Olá! Sou Charliane Silva Oliveira, Técnica em Desenvolvimento de Sistemas. Sou apaixonada por tecnologia, focada em criar soluções práticas, códigos limpos e funcionais.
-            </p>
+
+        <div class="row g-5">
+          <!-- INFORMAÇÕES -->
+          <div class="col-lg-5">
+            <h3 class="contact-title">Minhas informações</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+
+              <div>
+                <h4>E-mail</h4>
+                <a href="mailto:silvachacha167@gmail.com">
+                  silvachacha167@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+
+              <div>
+                <h4>WhatsApp</h4>
+                <a
+                  href="https://wa.me/5569993228219"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  (69) 99322-8219
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-instagram"></i>
+              </div>
+
+              <div>
+                <h4>Instagram</h4>
+                <a
+                  href="https://www.instagram.com/lianesilvaol._/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @lianesilvaol._
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div>
+                <h4>GitHub</h4>
+                <a
+                  href="https://github.com/silvachacha167-cpu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  silvachacha167-cpu
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 me-auto">
-            <p class="lead">
-              Neste portfólio você pode conferir meus projetos e entrar em contato diretamente comigo através das minhas redes sociais ou do formulário abaixo.
-            </p>
+
+          <!-- FORMULÁRIO -->
+          <div class="col-lg-7">
+            <div class="contact-form-card">
+              <h3>Envie uma mensagem</h3>
+
+              <form action="https://formspree.io/f/mdeggwlg" method="POST">
+                <div class="mb-3">
+                  <label for="name" class="form-label"> Nome completo </label>
+
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Digite seu nome"
+                    maxlength="100"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label"> E-mail </label>
+
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="seuemail@exemplo.com"
+                    maxlength="150"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="phone" class="form-label"> Telefone </label>
+
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    placeholder="(69) 99999-9999"
+                    maxlength="20"
+                    required
+                  />
+                </div>
+
+                <div class="mb-4">
+                  <label for="message" class="form-label"> Sua mensagem </label>
+
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    maxlength="3000"
+                    placeholder="Escreva sua mensagem..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary-custom submit-button">
+                  <i class="fas fa-paper-plane"></i>
+                  Enviar mensagem
+                </button>
+              </form>
+            </div>
           </div>
-        </div>
-        <!-- About Section Button-->
-        <div class="text-center mt-4">
-          <a
-            class="btn btn-xl btn-outline-light"
-            href="#contact"
-          >
-            <i class="fas fa-envelope me-2"></i>
-            Fale Comigo!
-          </a>
         </div>
       </div>
     </section>
-    <!-- Contact Section-->
-    <section class="page-section" id="contact">
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
       <div class="container">
-        <!-- Contact Section Heading-->
-        <h2
-          class="page-section-heading text-center text-uppercase text-secondary mb-0"
-        >
-          Entre em Contato Comigo
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- Contact Section Form (Integrado com Formspree para enviar para silvachacha167@gmail.com) -->
-        <div class="row justify-content-center">
-          <div class="col-lg-8 col-xl-7">
-            <form id="contactForm" action="https://formspree.io/f/mdeggwlg" method="POST">
-              <!-- Name input-->
-              <div class="form-floating mb-3">
-                <input
-                  class="form-control"
-                  id="name"
-                  name="name"
-                  type="text"
-                  placeholder="Digite seu nome..."
-                  required
-                />
-                <label for="name">Nome completo</label>
-              </div>
-              <!-- Email address input-->
-              <div class="form-floating mb-3">
-                <input
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  type="email"
-                  placeholder="nome@exemplo.com"
-                  required
-                />
-                <label for="email">Endereço de e-mail</label>
-              </div>
-              <!-- Phone number input-->
-              <div class="form-floating mb-3">
-                <input
-                  class="form-control"
-                  id="phone"
-                  name="phone"
-                  type="tel"
-                  placeholder="(69) 99322-8219"
-                  required
-                />
-                <label for="phone">Número de telefone</label>
-              </div>
-              <!-- Message input-->
-              <div class="form-floating mb-3">
-                <textarea
-                  class="form-control"
-                  id="message"
-                  name="message"
-                  type="text"
-                  placeholder="Digite sua mensagem aqui..."
-                  style="height: 10rem"
-                  required
-                ></textarea>
-                <label for="message">Mensagem</label>
-              </div>
-              <!-- Submit Button-->
-              <button
-                class="btn btn-primary btn-xl"
-                id="submitButton"
-                type="submit"
-              >
-                Enviar
-              </button>
-            </form>
+        <div class="footer-content">
+          <a class="footer-brand" href="#inicio"> Charliane<span>.</span> </a>
+
+          <p>Desenvolvido com dedicação por Charliane Silva Oliveira.</p>
+
+          <div class="footer-social">
+            <a
+              href="https://github.com/silvachacha167-cpu"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/lianesilvaol._/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a
+              href="https://wa.me/5569993228219"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Contato / Local</h4>
-            <p class="lead mb-0">
-              E-mail: silvachacha167@gmail.com
-              <br />
-              Tel: (69) 99322-8219
-            </p>
-          </div>
-          
-<!-- Redes Sociais -->
-<div class="col-lg-4 mb-5 mb-lg-0">
-    <h4 class="text-uppercase mb-4">Pela Internet</h4>
 
-    <!-- GitHub -->
-    <a class="btn btn-outline-light btn-social mx-1"
-       href="https://github.com/silvachacha167-cpu"
-       target="_blank">
-       <i class="fab fa-fw fa-github"></i>
-    </a>
-
-    <!-- Instagram -->
-    <a class="btn btn-outline-light btn-social mx-1"
-       href="https://www.instagram.com/lianesilvaol._/"
-       target="_blank">
-       <i class="fab fa-fw fa-instagram"></i>
-    </a>
-
-    <!-- WhatsApp -->
-    <a class="btn btn-outline-light btn-social mx-1"
-       href="https://wa.me/5569993228219"
-       target="_blank">
-       <i class="fab fa-fw fa-whatsapp"></i>
-    </a>
-</div>
-          <!-- Footer About Text-->
-          <div class="col-lg-4">
-            <h4 class="text-uppercase mb-4">Sobre o Portfólio</h4>
-            <p class="lead mb-0">
-              Desenvolvido por Charliane Silva Oliveira.
-            </p>
-          </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="currentYear">2026</span>
+            Charliane Silva Oliveira. Todos os direitos reservados.
+          </p>
         </div>
       </div>
     </footer>
-    <!-- Copyright Section-->
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright &copy; Charliane Silva Oliveira 2026</small>
-      </div>
-    </div>
-    <!-- Portfolio Modals -->
-    <!-- Bootstrap core JS-->
-    <script src="
+
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <a
+      href="#inicio"
+      class="back-to-top"
+      id="backToTop"
+      aria-label="Voltar ao topo"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript personalizado -->
+    <script>
+      // Ano automático
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      // Menu fecha após clicar em um link no celular
+      document
+        .querySelectorAll("#navbarResponsive .nav-link")
+        .forEach(function (link) {
+          link.addEventListener("click", function () {
+            const menu = document.getElementById("navbarResponsive");
+            const instance = bootstrap.Collapse.getInstance(menu);
+
+            if (instance) {
+              instance.hide();
+            }
+          });
+        });
+
+      // Botão voltar ao topo
+      const backToTop = document.getElementById("backToTop");
+
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 400) {
+          backToTop.classList.add("show");
+        } else {
+          backToTop.classList.remove("show");
+        }
+      });
+
+      // Animação de entrada das seções
+      const observer = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.12,
+        },
+      );
+
+      document
+        .querySelectorAll(
+          ".section-heading, .about-card, .skill-card, .project-card, .contact-item, .contact-form-card",
+        )
+        .forEach(function (element) {
+          element.classList.add("reveal");
+          observer.observe(element);
+        });
+    </script>
+  </body>
+</html>
